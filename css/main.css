@@ -106,12 +106,54 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.wrapper {
+header{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 4em;
+  background-color:  #660033;
+  color: #fff;
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  background-color: #1a0033;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  font-size: 1em;
+  height: 100px;
+  width: 100%;
+}
+
+main {
+  background-color: #1a0033;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3em;
+  color: #fff;
+  height: 200px;
+  width: 100%;
+}
+
+header,
+footer,
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
   /*add display:flex and set justify-content to space-between*/
+  background-color: #1a0033;
   font-weight: 700;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -122,12 +164,12 @@ body {
   font-size: 1.6em;
   background-color: #9A8C98;
   height: 300px;
-  display: flex;
   width: 30%;
-  justify-content: center;
-  align-items: center;
   border-style:solid;
   border-color: #4A4E69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
